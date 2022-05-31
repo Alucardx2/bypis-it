@@ -2,7 +2,7 @@ FROM breakdowns/mega-sdk-python:latest
 
 RUN apt update && apt upgrade -y
 RUN apt-get install git -y
-RUN git clone https://github.com/Alucardx2/teke /root/bot
+RUN git clone https://github.com/TKirtan/Mirror-Bot /root/bot
 RUN chmod 777 /root/bot
 WORKDIR /root/bot
 COPY extract /usr/local/bin
